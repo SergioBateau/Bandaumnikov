@@ -1,5 +1,5 @@
 # Тестовое задание Банда Умников #
-ссылка на GitHubPages: 
+ссылка на GitHubPages: https://sergiobateau.github.io/Bandaumnikov/
 
 ## Тестовое задание ##
 1. Сверстай макет по ссылке https://drive.google.com/file/d/12DbWC0OdaPflTB-GRdhZQVpV9t04oeYZ
@@ -24,6 +24,8 @@
 ***
 #### Чтобы запустить скрипт необходимо: ####
 * $ npm run gulp
+* $ npm run build
+
 
 ####  10 способов улучшения загрузки сайта ####
 * Оптимизация изображений
