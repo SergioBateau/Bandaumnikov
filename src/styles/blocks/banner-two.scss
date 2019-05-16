@@ -1,0 +1,16 @@
+.banner-two {
+  display: flex;
+  background: url(./images/banner2.jpg) center left no-repeat / cover;
+  position: relative;
+  
+}
+
+.banner-link {
+  display: flex;
+  position: relative;
+
+  @include desc() {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}

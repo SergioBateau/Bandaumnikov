@@ -1,20 +1,27 @@
 @font-face {
   font-family: 'proximanova-regular';
-  src: url('./fonts/proxima_nova') format('woff2');
+  src: url('./fonts/proximanova-regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proximanova-semibold';
-  src: url('./fonts/ProximaNova-Semibold') format('woff2');
+  src: url('./fonts/proximanova-semibold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proximanova-bold';
-  src: url('./fonts/ProximaNova-Bold') format('woff2');
+  src: url('./fonts/proximanova-bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'umnik-bold';
+  src: url('./fonts/umnik-bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }

@@ -1,0 +1,26 @@
+.btn {
+  width: 142px;
+  height: 43px;
+  background-color: #ff0072;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'proximanova-bold';
+  position: absolute;
+  right: 25px;
+  bottom: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 15px;
+
+  &:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  }
+
+  @include phones () {
+    bottom: 10px;
+    font-size: 14px;
+    width: 100px;
+    padding: 10px 0;
+  }
+
+}

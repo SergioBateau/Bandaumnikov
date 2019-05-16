@@ -1,0 +1,137 @@
+.banner-one {
+  background: url(./images/banner1.jpg) center center no-repeat / cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.banner-img {
+  position: relative;
+  
+  @include phones() {
+    width: 50%;
+  }
+}
+
+.present-pic {
+  position: absolute;
+  top: -10px;
+  right: -20%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.banner-title {
+  font-family: 'proximanova-bold';
+  font-size: 30px;
+
+  @include phones () {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.banner-text {
+  @include phones () {
+    display: none;
+  }
+}
+
+.banner-timer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.timer {
+  margin-top: 15px;
+  width: 80px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  margin-right: 20px;
+
+  @include phones() {
+    display: none;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    background-image: url(./images/stick.png);
+    height: 55px;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.timer-text {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  font-size: 16px;
+  transform: translateX(-50%);
+}
+
+.timer-num {
+  font-family: 'umnik-bold';
+  font-size: 55px;
+  text-align: center;
+  line-height: 1.1;
+
+}
+
+.banner-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  margin-top: 30px;
+  line-height: 1;
+  left: 45%;
+  bottom: 22px;
+
+  @include phones() {
+    bottom: 35%;
+    left: 55%;
+  }
+}
+
+.banner-discount {
+  font-family: 'proximanova-bold';
+  color: #ff0072;
+  font-size: 36px;
+
+  @include phones() {
+    font-size: 30px;
+  }
+}
+
+.banner-noprice {
+  white-space:pre;
+	position:relative;
+  display:inline-block;
+  
+  &:after {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;top:50%;
+    color:red;
+    width:100%;
+    height:0;
+    border-bottom:2px solid red;
+    transform:rotate(10deg);
+  }
+}
