@@ -16,7 +16,8 @@
 
 
 ## Autor: Sergei Korablev ##
-
+- Технологии, которые я использовал:
+Gulp, препроцессор Scss, Git
 #### Чтобы развернуть проект необходимо: ####
 * $ git@github.com:SergioBateau/Bandaumnikov.git
 * $ cd Bandaumnikov
