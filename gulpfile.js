@@ -82,9 +82,6 @@ task('styles', () => {
 });
 
 const libs = [
-    "node_modules/jquery/dist/jquery.js",
-    "node_modules/mobile-detect/mobile-detect.js",
-    "node_modules/jquery-touchswipe/jquery.touchSwipe.js",
     'src/scripts/*.js'
 ]
 

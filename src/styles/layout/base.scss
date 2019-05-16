@@ -51,6 +51,10 @@ h1 {
   @include tablets () {
     text-align: center;
   }
+
+  @include phones () {
+    font-size: 30px;
+  }
 }
 
 p {
@@ -116,6 +120,10 @@ img {
   @include tablets () {
     align-items: center;
   }
+
+  @include phones () {
+    margin-top: 15px;
+  }
 }
 
 .banner {
@@ -135,5 +143,9 @@ img {
   @include desc() {
     margin-right: 0;
     margin-bottom: 50px;
+  }
+
+  @include phones () {
+    margin-bottom: 20px;
   }
 }
