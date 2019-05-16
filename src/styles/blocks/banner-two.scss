@@ -1,6 +1,7 @@
 .banner-two {
   display: flex;
-  background: url(/images/banner2.jpg) center left no-repeat / cover;
+  background: url(./images/banner2.jpg) center left no-repeat;
+  background-size: cover;
   position: relative;
   
 }
