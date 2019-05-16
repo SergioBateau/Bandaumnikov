@@ -16,8 +16,20 @@
 
 
 ## Autor: Sergei Korablev ##
-- Технологии, которые я использовал:
-Gulp, препроцессор Scss, Git
+- adamas34@gmail.com
+- 79062687892
+
+***
+#### Технологии, которые я использовал: ####
+- Gulp, препроцессор Scss, npm, Git, JS
+
+#### Технические задачиб которые я выполнил: ####
+- Кроссбраузерность: Chrome, Firefox, Opera, Edge
+- Адаптив (1200px, 768px, 480px)
+- Таймер обратного отсчета до 21 мая
+- Анимация кнопок
+- Переход по баннеру на сайт https://bandaumnikov.ru/
+
 #### Чтобы развернуть проект необходимо: ####
 * $ git@github.com:SergioBateau/Bandaumnikov.git
 * $ cd Bandaumnikov
